@@ -22,6 +22,7 @@ def test(data):
     step(str(response.json()))
     step("bbbbbbbb")
     step("new comment")
+    step("comment from me ")
     for k, v in response.json().items():
         step(k+ ": "+ v)
 
