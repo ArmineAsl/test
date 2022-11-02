@@ -22,9 +22,8 @@ def test(data):
     step(str(response.json()))
     step("bbbbbbbb")
     step("new comment")
-
     step("comment from me ")
-
+    step("comment from me 1")
     step("comment from another user")
     for k, v in response.json().items():
         step(k+ ": "+ v)
